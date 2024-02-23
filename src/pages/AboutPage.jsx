@@ -8,8 +8,7 @@ export default function AboutPage() {
   
         {/* About Text */}
         <div className="about-text-container">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat ut beatae ex perspiciatis dignissimos vitae accusantium ipsam ad quaerat! Totam autem tempore illum aut, sequi, tenetur, nulla alias eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat ut beatae ex perspiciatis dignissimos vitae accusantium ipsam ad quaerat! Totam autem tempore illum aut, sequi, tenetur, nulla alias eveniet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat ut beatae ex perspiciatis dignissimos vitae accusantium ipsam ad quaerat! Totam autem tempore illum aut, sequi, tenetur, nulla alias eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat ut beatae ex perspiciatis dignissimos vitae accusantium ipsam ad quaerat! Totam autem tempore illum aut, sequi, tenetur, nulla alias eveniet.</p>
+          <p></p>
         </div>
       </div>
     );

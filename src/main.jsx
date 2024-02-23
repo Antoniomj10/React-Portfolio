@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Loading Stylesheets
-import './Assets/css/NavPage.css';
 import './assets/css/AboutPage.css';
-import './Assets/css/PortfolioPage.css';
-import './Assets/css/Contact.css';
+import './assets/css/ContactPage.css';
+import './assets/css/NavPage.css';
+import './assets/css/PortfolioPage.css';
+
+
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/contactPage';
+import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
 import ErrorPage from './pages/ErrorPage';
 import AboutPage from './pages/AboutPage';
