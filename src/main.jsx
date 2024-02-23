@@ -1,5 +1,4 @@
 import ReactDOM from 'react-dom/client';
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Loading Stylesheets
@@ -10,15 +9,13 @@ import './assets/css/PortfolioPage.css';
 
 
 
-// Bringing in the pages the router will use to conditionally show the appropriate views
 import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPage.jsx';
 import ResumePage from './pages/ResumePage';
 import ErrorPage from './pages/ErrorPage';
 import AboutPage from './pages/AboutPage';
 import App from './App';
 
-// Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: '/',
@@ -46,7 +43,6 @@ const router = createBrowserRouter([
 ]);
 
 
-// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );

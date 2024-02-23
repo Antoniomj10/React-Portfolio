@@ -1,8 +1,7 @@
 export default function Footer() {
-    // The Navbar UI component will render each of the Link elements in the links prop
     return (
         <>
-            {/* Social Media */}
+            {/* Social */}
             <div className="socialmedia-img-container">
                 <a href="https://github.com/Antoniomj10">
                     <img src="../src/assets/images/github.png" alt="Github profile" />
