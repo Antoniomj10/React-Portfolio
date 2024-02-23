@@ -1,0 +1,78 @@
+:root {
+    --gap: 40px;
+}
+
+img {
+    width: 100px;
+}
+
+.about-main-container, .about-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-main-container {
+    row-gap: var(--gap);
+    margin: 0 100px 0 100px;
+}
+
+.about-text-container {
+    row-gap: calc(var(--gap) - 20px);
+    font-size: 1.2rem;
+}
+
+.socialmedia-img-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    column-gap: var(--gap);
+}
+
+.socialmedia-img-container img {
+    width: 50px;
+}
+
+.socialmedia-img-container img:hover {
+    color: #b7b7b7e2;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+
+    /* Styling each individual link */
+    nav div a {
+        margin: 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    /* Styling each individual link */
+    nav div a {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    
+    /* My Name */
+    h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    /* Navigation Container */
+    nav {
+        height: 100px;
+        flex-direction: column;
+        padding: 0;
+    }
+}

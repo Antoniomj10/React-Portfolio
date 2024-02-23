@@ -1,0 +1,24 @@
+.Contact-Main-Container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 300px 0 300px;
+    row-gap: 30px;
+}
+
+.Contact-Main-Container div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.Contact-Main-Container div input {
+    height: 25px;
+}
+
+button {
+    height: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}
