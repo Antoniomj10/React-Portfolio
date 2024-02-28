@@ -10,7 +10,7 @@ import './assets/css/PortfolioPage.css';
 
 
 import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage.jsx';
+import ContactPage from './pages/contactPage.jsx';
 import ResumePage from './pages/ResumePage';
 import ErrorPage from './pages/ErrorPage';
 import AboutPage from './pages/AboutPage';
