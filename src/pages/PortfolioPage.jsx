@@ -6,13 +6,13 @@ export default function PortfolioPage() {
       {
         Key: 1,
         Title: 'Note Taker',
-        Image: '../src/assets/images/note-taker.png',
+        Image: '../src/assets/images/NoteTaker.png',
         Link: 'https://github.com/Antoniomj10/Note-Taker'
       },
       {
         Key: 2,
         Title: 'Passwrod Generator',
-        Image: './src/assets/images/passwrod-generator.png',
+        Image: '../src/assets/images/password.png',
         Link: 'https://github.com/Antoniomj10/Module3_GnereatingPass'
       },
       {

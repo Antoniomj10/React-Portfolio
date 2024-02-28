@@ -1,14 +1,15 @@
 :root {
-    --gap: 40px;
+    --gap: 60px;
 }
 
 img {
-    width: 100px;
+    width: 300px;
 }
 
 .about-main-container, .about-text-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .about-main-container {
@@ -25,16 +26,16 @@ img {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 200px;
     column-gap: var(--gap);
 }
 
 .socialmedia-img-container img {
-    width: 50px;
+    width: 60px;
 }
 
 .socialmedia-img-container img:hover {
-    color: #b7b7b7e2;
+    color: #aaaaaae2;
     transition: 0.5s;
 }
 
@@ -51,12 +52,12 @@ img {
 @media screen and (max-width: 850px) {
 
     nav div a {
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
     
     h1 {
         font-size: 40px;
@@ -64,7 +65,7 @@ img {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     
     nav {
         height: 100px;

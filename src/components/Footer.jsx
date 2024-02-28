@@ -10,7 +10,7 @@ export default function Footer() {
                     <img src="../src/assets/images/linkedin.png" alt="Linkedin profile" />
                 </a>
                 <a href="https://dev.to/ant_ant0">
-                    <img src="../../asstes/images/dev.png" alt="dev community" />
+                    <img src="../src/assets/images/dev.png" alt="dev community" />
                 </a>
             </div>
         </>
